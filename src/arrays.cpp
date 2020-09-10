@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include "arrays.h"
+// namespace crunch
 namespace crunch
 {
     std::vector<int> random_vec(int lower, int upper, int num_elements)
@@ -12,4 +13,4 @@ namespace crunch
         }
         return v;
     }
-} // namespace crunch
+} 
