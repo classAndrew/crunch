@@ -5,6 +5,7 @@
 namespace crunch 
 {
     std::vector<std::vector<int>> random_adj_list(int nodes);
+    void print_graph_adj(std::vector<std::vector<int>>& graph);
 }
 
 #endif
