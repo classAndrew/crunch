@@ -13,11 +13,13 @@ namespace crunch
         }
         return v;
     }
-    void print_vec(std::vector<int> v) {
+    void print_vec(std::vector<int> v)
+    {
         std::cout << "[";
-        for (int i = 0; i < v.size(); i++) {
-            std::cout << v[i] << (i==v.size()-1 ? "" : ", "); 
+        for (int i = 0; i < v.size(); i++)
+        {
+            std::cout << v[i] << (i == v.size() - 1 ? "" : ", ");
         }
         std::cout << "]\n";
     }
-} 
+} // namespace crunch
