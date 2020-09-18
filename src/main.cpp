@@ -14,8 +14,10 @@ int main() {
 
 void bin_trie_test() {
     crunch::bin_trie *trie = new crunch::bin_trie();
-    crunch::bin_trie_insert(trie, 0b1010, 0);
-    // crunch::bin_trie_insert(trie, 0b1011, 0);
+    crunch::bin_trie_insert(trie, 0b010, 0);
+    cout << "next\n"; 
+    crunch::bin_trie_insert(trie, 0b011, 0);
+    crunch::bin_trie_insert(trie, 0xFFFFFFFF, 0);
     traverse_trie_test(trie, 0);
 }
 
